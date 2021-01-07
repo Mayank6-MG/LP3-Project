@@ -25,6 +25,7 @@ songstatus.set("choosing")
 #playlist---------------
 playlist=Listbox(root,selectmode=SINGLE,bg="Black",fg="white",font=('arial',15),width=40)
 playlist.grid(columnspan=5)
+#add the path of your folder which contains the musics files.
 os.chdir(r'C:/Users/MAYANK/AppData/Local/Programs/Python/Python37-32/New folder')
 songs=os.listdir()
 for s in songs:
